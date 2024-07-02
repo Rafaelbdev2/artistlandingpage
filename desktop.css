@@ -1,0 +1,18 @@
+.main_container{
+    background-position-y: -400px;
+    background-position-x: 0;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.info_social {
+    margin-right: 40px;
+}
+
+.buttons_CTA {
+    width: 120px;
+}
