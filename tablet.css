@@ -26,9 +26,6 @@ flex-direction: row;
 
 .buttons_CTA {
     width: 20vw;
-    height: 30px;
-    font-family: "Inter", sans-serif;
-    background-color: transparent;
-    color: var(--just-white);
-    border: solid 1px var(--just-white);
+    height: 50px;
+    margin-top: 4px;
 }
