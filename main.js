@@ -5,12 +5,14 @@ const btn4 = document.querySelector('#youtube');
 const btn5 = document.querySelector('#tiktok');
 const btn6 = document.querySelector('#spotify');
 
+
 btn1.addEventListener('click', btnOnclick1);
 btn2.addEventListener('click', btnOnclick2);
 btn3.addEventListener('click', btnOnclick3);
 btn4.addEventListener('click', btnOnclick4);
 btn5.addEventListener('click', btnOnclick5);
 btn6.addEventListener('click', btnOnclick6);
+hambMenu.addEventListener('click', togglemenu);
 
 
 function btnOnclick1() {
