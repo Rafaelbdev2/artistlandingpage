@@ -13,9 +13,8 @@ body {
     background-color: white;
 }
 
-nav {
+.nav_main {
     width: 100vw;
-    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     cursor: pointer;
@@ -23,6 +22,7 @@ nav {
     padding: 15px 24px;
     border-bottom: solid 2px #e6e6e6;
 }
+
 
 .logo {
     width: 100%;
@@ -32,6 +32,10 @@ nav {
     display: flex;
     align-items: center;
     text-transform: uppercase;
+}
+
+.desktop__menu {
+    display: none;
 }
 
 .mobile__menu  {
@@ -76,7 +80,7 @@ ul li {
 
 }
 
-a {
+.a_links {
     display: flex;
     justify-content: center;
     text-decoration: none;
@@ -116,11 +120,18 @@ a {
     padding: 20px;
 	}
 
+
+
     footer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         padding: 0 20px;
+        margin-bottom: 20px;
+    }
+
+    .left_footer {
+        width: 180px;
     }
 
 
@@ -134,3 +145,35 @@ a {
         display: flex;
         gap: 5px;
     }
+
+    .about {
+        width: 100%;
+        font-family: "Reddit Sans", sans-serif;
+    }
+
+    .about__title {
+        width: 100%;
+        padding: 5px 20px;
+        font-size: 1.8rem;
+    }
+    .about__p {
+        width: 100%;
+        padding: 20px;
+        text-align: justify;
+        margin-bottom: 20px;
+        font-size: 1.6rem;
+    }
+
+    .about__p2 {
+        margin-top: 10px;
+    }
+
+    /* @media (min-width: 641px) {
+        .mobile__menu {
+            display: none;
+        }
+        .menu {
+            display: none;
+        }
+
+        } */

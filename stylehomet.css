@@ -1,0 +1,50 @@
+.nav_main {
+    display: block;
+    height: 140px;
+    padding: 0;
+}
+
+.menu {
+    display: none;
+}
+.logo {
+    justify-content: center;
+    height: 80px;
+    font-size: 2rem;
+}
+.mobile__menu {
+    display: none;
+}
+.desktop__menu {
+    display: block;
+    height: 60px;
+    background-color: #e6e6e6;
+    align-content: center;
+}
+
+.desktop__menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.desktop__menu ul li {
+    display: block;
+    width: 120px;
+    border-style: none;
+}
+.a_linksd {
+    font-size: 1.6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Reddit Sans", sans-serif
+}
+
+.main__img {
+    height: 350px;
+
+}
+
+

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rafael Osma:Inicio</title>
     <link rel="stylesheet" href="./stylehome.css">
+    <link rel="stylesheet" href="./stylehomet.css" media="(min-width:640px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -13,20 +14,31 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="nav_main">
             <h1 class="logo">Rafael Osma</h1>
+            <div class="desktop__menu">
+                <ul>
+                    <li><a class="a_linksd" href="home.html">Inicio</a></li>
+                    <li><a class="a_linksd" href="musica.html">Musica</a></li>
+                    <li><a class="a_linksd" href="#">Galeria</a></li>
+                    <li><a class="a_linksd" href="contact.html">Contacto</a></li>
+                </ul>
+
+            </div>
             <div class="mobile__menu inactive">
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Bio</a></li>
-                    <li><a href="#">Musica</a></li>
-                    <li><a href="#">Galeria</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a class="a_links" href="home.html">Inicio</a></li>
+                    <li><a class="a_links" href="musica.html">Musica</a></li>
+                    <li><a class="a_links" href="#">Galeria</a></li>
+                    <li><a class="a_links" href="contact.html">Contacto</a></li>
                   </ul>
              </div>
-             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25" fill="currentColor" class="menu" id="hamburger" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-             </svg>
+             <div class="menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25" fill="currentColor"  id="hamburger" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                 </svg>                
+             </div>
+
     
         </nav>
     
@@ -38,10 +50,26 @@
         <div class="responsive_video">
             <iframe src="https://www.youtube.com/embed/ublD8dLUFBk?si=cnYBBAlKAbVY5TMW?modestbranding=1" frameborder="0" allowfullscreen></iframe>
         </div>
-        <div class="instagram_container">
+        <section class="about">
+            <div class="about__title">
+                <h2>Qui&eacute;n soy</h2>
+
+            </div>
+            <div class="about__p">
+                <p class="about__p1">Soy un m&uacute;sico profesional apasionado por el arte y la tecnolog&iacute;a. En mis tiempos libres creo contenido para diferentes redes sociales. Trato de que el contenido que hago sea &uacute;til y es por eso que no s&oacute;lo encontrar&aacute;s en &eacute;l cosas entretenidas, sino que tambi&eacute;n podr&aacute;s ver uno que otro video tutorial o video enseñando c&oacute;mo leer el pentagrama, armar un instrumento reciclado o incluso como enseñar un tema de forma efectiva</p>
+                
+                <p class="about__p2">Si te gusta la m&uacute;sica instrumental te invito a que te pases por <a href="https://www.youtube.com/channel/UCo7Uj3yeKiPXs6OjBSTWvzA">mi canal de youtube</a> ya que all&iacute; publico videos cada tanto de canciones increibles, o si eres de los que prefiere spotify, tambi&eacute;n me puedes encontrar ah&iacute;</p>
+
+            </div>
+      
 
 
-        </div>
+        </section>        
+
+            
+      
+              
+      
 
     </main>
 
