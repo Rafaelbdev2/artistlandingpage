@@ -1,0 +1,45 @@
+.main_container{
+    background-position-y: -400px;
+    background-position-x: 0;
+}
+
+.info {
+    display: inline-flex;
+    width: 100%;
+    margin-left: 0;
+    justify-content: space-around;
+
+}
+
+.info_title {
+    display: flex;
+    align-items: center;
+
+}
+.info_social {
+    display: flex;
+    margin-right: 0px;
+    gap: 16px;
+}
+
+.info_links{
+    display: flex;
+    margin-top: 0;
+    gap: 15px;
+    align-items: center;
+    margin-left: 80px;
+
+
+}
+
+.buttons {
+    margin-top: 0;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+.buttons_CTA {
+    width: 120px;
+    margin-right: 20px;
+    margin-top: 0;
+}

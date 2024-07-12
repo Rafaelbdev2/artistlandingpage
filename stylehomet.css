@@ -39,12 +39,30 @@
     font-size: 1.6rem;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: "Reddit Sans", sans-serif
+    font-family: "Reddit Sans", sans-serif;
+    color: black;
 }
-
 .main__img {
-    height: 350px;
-
+    height: 300px;
+    background-size: cover;  
+    background-position-y: -70px;
 }
 
+.responsive_video {
+    padding-bottom: 50%;
+}
+.responsive_video iframe {
+    height: 400px;
+}
 
+.left_footer {
+    width: 300px;
+}
+
+.right_footer {
+    width: 300px;
+}
+.info_links {
+    justify-content: flex-end;
+    gap: 12px;
+}

@@ -1,0 +1,24 @@
+
+.info {
+    padding-bottom: 18px;
+}
+
+.info_social {
+display: flex;
+
+}
+.info_links {
+    margin-top: 0;
+    display: inline-flex;
+    align-items: center;
+}
+.buttons {
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 40px;
+    margin-top: 0;
+}
+.buttons_CTA {
+    width: 120px;
+    margin-top: 0;
+}
