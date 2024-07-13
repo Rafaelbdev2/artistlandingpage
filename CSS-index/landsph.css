@@ -11,14 +11,15 @@ display: flex;
     margin-top: 0;
     display: inline-flex;
     align-items: center;
+    gap: 8px;
 }
 .buttons {
     flex-direction: row;
-    gap: 15px;
-    margin-left: 40px;
+    gap: 10px;
+    margin-left: 20px;
     margin-top: 0;
 }
 .buttons_CTA {
-    width: 120px;
+    width: 160px;
     margin-top: 0;
 }

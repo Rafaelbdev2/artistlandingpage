@@ -5,36 +5,28 @@ const btn4 = document.querySelector('#youtube');
 const btn5 = document.querySelector('#tiktok');
 const btn6 = document.querySelector('#spotify');
 
-
 btn1.addEventListener('click', btnOnclick1);
 btn2.addEventListener('click', btnOnclick2);
 btn3.addEventListener('click', btnOnclick3);
 btn4.addEventListener('click', btnOnclick4);
 btn5.addEventListener('click', btnOnclick5);
 btn6.addEventListener('click', btnOnclick6);
-hambMenu.addEventListener('click', togglemenu);
-
 
 function btnOnclick1() {
-    window.open ("https://x.com/ro_violin");
+    window.open ("https://x.com/rafael_osmav");
 }
-
 function btnOnclick2() {
     window.open ("https://www.facebook.com/profile.php?id=61561922064558");
 }
-
 function btnOnclick3() {
-    window.open ("https://www.instagram.com/roviolinista/?hl=es-la");
+    window.open ("https://www.instagram.com/rafael_osmav/?hl=es-la");
 }
-
 function btnOnclick4() {
     window.open ("https://www.youtube.com/channel/UCo7Uj3yeKiPXs6OjBSTWvzA");
 }
-
 function btnOnclick5() {
     window.open ("https://www.tiktok.com/@ro_violin");
 }
-
 function btnOnclick6() {
     window.open ("https://spotify.com");
 }

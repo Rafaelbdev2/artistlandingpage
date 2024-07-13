@@ -24,7 +24,7 @@ function togglemenu() {
 
 
 function btnOnclick1() {
-    window.open ("https://x.com/ro_violin");
+    window.open ("https://x.com/rafael_osmav");
 }
 
 function btnOnclick2() {
