@@ -14,15 +14,10 @@ btn3.addEventListener('click', btnOnclick3);
 btn4.addEventListener('click', btnOnclick4);
 btn5.addEventListener('click', btnOnclick5);
 btn6.addEventListener('click', btnOnclick6);
-
-
 function togglemenu() {
     mobileMenu.classList.toggle('inactive');
 
 }
-
-
-
 function btnOnclick1() {
     window.open ("https://x.com/rafael_osmav");
 }
@@ -46,3 +41,31 @@ function btnOnclick5() {
 function btnOnclick6() {
     window.open ("https://spotify.com");
 }
+
+ // Cargar el reproductor de IFrame de la API de YouTube
+ var tag = document.createElement('script');
+ tag.src = "https://www.youtube.com/iframe_api";
+ var firstScriptTag = document.getElementsByTagName('script')[0];
+ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+ // Crear una variable para el reproductor
+ var player;
+ function onYouTubeIframeAPIReady() {
+   player = new YT.Player('player', {
+     height: '360',
+     width: '640',
+     videoId: 'ublD8dLUFBk', // ID del video de YouTube
+     events: {
+       'onReady': onPlayerReady,
+       'onStateChange': onPlayerStateChange
+     }
+   });
+ }
+
+ function onPlayerReady(event) {
+   // El video estará listo para ser reproducido
+ }
+
+ function onPlayerStateChange(event) {
+   // Manejar los cambios en el estado del reproductor
+ }

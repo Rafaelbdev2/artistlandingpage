@@ -1,3 +1,29 @@
 .main__img {
-    height: 500px;
+    height: 550px;
+    background-position-y: center;
+}
+.nav_main {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+
+body {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.video-container {
+    margin: 0 auto;
+}
+.about {
+    padding: 0;
+}
+.about__title {
+    padding: 10px 0;
+}
+.about__p {
+    padding: 0;
+}
+footer {
+    padding: 0;
 }

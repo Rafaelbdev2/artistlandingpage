@@ -3,7 +3,9 @@
     height: 140px;
     padding: 0;
 }
-
+main {
+    width: 100%;
+}
 .menu {
     display: none;
 }
