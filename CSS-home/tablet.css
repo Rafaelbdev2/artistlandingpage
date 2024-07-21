@@ -45,9 +45,9 @@ main {
     color: black;
 }
 .main__img {
-    height: 300px;
+    height: 320px;
     background-size: cover;  
-    background-position-y: -70px;
+
 }
 
 .responsive_video {

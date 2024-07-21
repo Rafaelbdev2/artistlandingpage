@@ -22,7 +22,7 @@ html {
 
 .main_container {
     position: absolute;
-    background-image: url("/img/main.jpeg");
+    background-image: url("./img/main.jpeg");
     background-position-x: center;
     background-position-y: center;
     width: 100%;
