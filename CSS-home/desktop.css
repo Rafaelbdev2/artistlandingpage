@@ -1,10 +1,66 @@
+body {
+    padding-top: 140px;
+    }
+
+header {
+    top: 0;
+    position: fixed;
+    max-width: 1040px;
+    width: 100%;
+    z-index: 9999;
+    
+}
+
+
+
+
 .main__img {
     height: 320px;
     background-position-y: center;
 }
+
+
 .nav_main {
     max-width: 1040px;
     margin: 0 auto;
+    display: block;
+    height: 140px;
+    background-color: #fff;
+
+}
+
+.desktop__menu {
+    display: block;
+    height: 60px;
+    background-color: #e6e6e6;
+    align-content: center;
+}
+.desktop__menu ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.desktop__menu ul li {
+    display: block;
+    width: 120px;
+    border-style: none;
+}
+.a_linksd {
+    font-size: 1.6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Reddit Sans", sans-serif;
+    color: black;
+}
+
+main {
+    width: 100%;
+}
+.menu {
+    display: none;
 }
 
 
